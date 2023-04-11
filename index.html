@@ -17,22 +17,16 @@
 <div class="row">
     <div class="col-sm-6" style="padding: 15px;">
         <h2 class="text-center" style="font-size: 200%;">Tasks</h2>
-        <ul class="list-group">
-            <li class="list-group-item">
-                Wash the dishes
-            </li>
-            <li class="list-group-item">
-                Wak a dog
-            </li>
+        <ul class="list-group" id="taskList">
         </ul>
     </div>
     <div class="col-sm-6" style="padding: 15px;">
         <h2 class="text-center" style="font-size: 200%;">Task creation</h2>
-        <form>
+        <form id="userForm">
             <div class="form-group">
-                <input type="text" class="form-control" id="inputTask" placeholder="Enter task here...">
+                <input type="text" autocomplete="off" class="form-control" id="inputTask" placeholder="Enter task here...">
             </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
+            <button type="submit" class="btn btn-primary " style="width: 50%; margin-left: 25%;">Submit</button>
         </form>
     </div>
 </div>
